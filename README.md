@@ -60,13 +60,15 @@ maven:
 ```
 ### Step 4: Add Signature View in Activity.java
 ```java
-      super.onCreate(savedInstanceState)
+   override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val sign = findViewById<SignaturePad>(R.id.signaturePad2)
         sign.isDrawingCacheEnabled = true
         findViewById<View>(R.id.saveButton).setOnClickListener {
             val img = getBitmapFromView(sign, sign.width, sign.height)
             sign.isDrawingCacheEnabled = false
+       
         }
 
     }
