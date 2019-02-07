@@ -1,9 +1,9 @@
 # SignaturePad
 Custom view for signature and save signature as jpg image in internal storage
 
-##How to use it in project
+## How to use it in project
 
-###Step 1:Add the JitPack repository to your build file
+### Step 1:Add the JitPack repository to your build file
 
 gradle :
 
@@ -24,7 +24,7 @@ maven:
 		</repository>
 	</repositories>
 ```
-###Step 2: Add the dependency
+### Step 2: Add the dependency
 
 gradle :
 ```gradle
@@ -41,7 +41,7 @@ maven:
 	</dependency>
 ```
 
-###Step 3: Add Signature View in Activity.xml
+### Step 3: Add Signature View in Activity.xml
 ```java
   <com.ct.signaturepad2.SignaturePad
             android:layout_width="300dp"
@@ -58,7 +58,7 @@ maven:
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"/>
 ```
-###Step 4: Add Signature View in Activity.java
+### Step 4: Add Signature View in Activity.java
 ```java
       super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
