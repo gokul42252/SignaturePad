@@ -74,4 +74,6 @@ maven:
     }
 ```
 
+![alt text](https://github.com/gokul42252/SignaturePad/blob/master/Screenshot_1549541393.png)
+
 
